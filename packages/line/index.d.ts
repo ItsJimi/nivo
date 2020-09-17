@@ -20,7 +20,7 @@ import {
 import { OrdinalColorsInstruction } from '@nivo/colors'
 import { LegendProps } from '@nivo/legends'
 import { Scale, ScaleFunc } from '@nivo/scales'
-import { AxisProps, GridValues } from '@nivo/axes'
+import { AxisProps, GridValues } from '@rlvt/axes'
 import { CrosshairType } from '@nivo/tooltip'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>

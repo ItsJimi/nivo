@@ -133,6 +133,14 @@ stories.add('time scale', () => (
                     { x: '2018-01-06', y: 16 },
                     { x: '2018-01-07', y: 13 },
                     { x: '2018-01-08', y: 13 },
+                    { x: '2018-02-01', y: 7 },
+                    { x: '2018-02-02', y: 5 },
+                    { x: '2018-02-03', y: 11 },
+                    { x: '2018-02-04', y: 9 },
+                    { x: '2018-02-05', y: 12 },
+                    { x: '2018-02-06', y: 16 },
+                    { x: '2018-02-07', y: 13 },
+                    { x: '2018-02-08', y: 13 },
                 ],
             },
             {
@@ -166,7 +174,7 @@ stories.add('time scale', () => (
         }}
         axisBottom={{
             format: '%b %d',
-            tickValues: 'every 2 days',
+            tickValues: 'every 6 days, no first day',
             legend: 'time scale',
             legendOffset: -12,
         }}
